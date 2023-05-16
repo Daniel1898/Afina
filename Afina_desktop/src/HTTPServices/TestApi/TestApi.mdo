@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="718d8b9c-6f2e-4ef4-9b31-3e036d6e89c1">
+  <name>TestApi</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test api</value>
+  </synonym>
+  <rootURL>api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="245ee4d7-824c-4151-b033-1c5ac215b7bb">
+    <name>test1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test1</value>
+    </synonym>
+    <template>/test/</template>
+    <methods uuid="4b1d0972-caa3-4525-96d0-c477b3e1387b">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>test1post</handler>
+    </methods>
+    <methods uuid="4e01256c-53ed-45e7-9c85-df00e9fd07b6">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>test1get</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3cd6d75e-6c92-46d0-8fec-a51924824838">
+    <name>taskQueue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Task queue</value>
+    </synonym>
+    <template>/queue/</template>
+    <methods uuid="25fd7c9b-85db-42ed-ac9e-a9e6a1576ef3">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>taskQueueget</handler>
+    </methods>
+    <methods uuid="f66ebefc-81d7-4ac2-9941-567398621d6c">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>taskQueuepost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3706d881-9422-4d2e-90ba-644ad1c4fee2">
+    <name>solution</name>
+    <synonym>
+      <key>ru</key>
+      <value>Solution</value>
+    </synonym>
+    <template>/solution</template>
+    <methods uuid="1ebc2768-8a94-4796-a46a-27f5ab92cb8c">
+      <name>postSolution</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post solution</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>solutionpostSolution</handler>
+    </methods>
+    <methods uuid="b994e3cc-79a9-4231-b24a-ab1c65e8059c">
+      <name>getSolution</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get solution</value>
+      </synonym>
+      <handler>solutiongetSolution</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

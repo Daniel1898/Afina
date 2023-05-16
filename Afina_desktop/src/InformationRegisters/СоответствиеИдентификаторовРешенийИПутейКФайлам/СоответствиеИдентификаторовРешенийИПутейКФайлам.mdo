@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84dcad35-d158-4c5d-bf1a-e263810e6049">
+  <producedTypes>
+    <selectionType typeId="b1611881-6b30-418e-b949-b8cc90f0778b" valueTypeId="78e3fd19-6c83-4552-b0ad-798dd8986412"/>
+    <listType typeId="647d60b4-ec9c-45a2-bea8-7f44a1c7e71a" valueTypeId="da8c62c0-9607-4a36-bdb6-6d615a76d970"/>
+    <managerType typeId="2eaf9da0-6f71-4dd4-9eb6-780cf4894b60" valueTypeId="02c85fb6-ec17-45fb-9531-bd6fed4872c0"/>
+    <recordSetType typeId="57122925-7855-4378-9056-77d29afe6995" valueTypeId="06fbb55f-d111-4f67-812c-4ca1363bd125"/>
+    <recordKeyType typeId="579e9c88-bcff-4962-836c-c0017d4dfed6" valueTypeId="eb62e129-e7cf-461a-92dd-9429664febee"/>
+    <recordType typeId="bcafe3d0-6422-4a97-93a9-38d33caa9921" valueTypeId="8415000f-ba25-4fc8-88cb-ee6cb124bf7f"/>
+    <recordManagerType typeId="d86682f5-104a-46be-a827-8f5e3266d1e6" valueTypeId="1e344db6-4221-47a5-a0c5-9aea244ee52d"/>
+  </producedTypes>
+  <name>СоответствиеИдентификаторовРешенийИПутейКФайлам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие идентификаторов решений и путей к файлам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="16c4eb49-7a96-4861-9438-477736cfaed4">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="501c0160-5e21-4325-8a0d-b35701d43547">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

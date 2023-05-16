@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bb5c95c-0ff2-4ca3-8264-76e7bea9db5f">
+  <name>Afina</name>
+  <synonym>
+    <key>ru</key>
+    <value>Afina</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6ec12384-afb2-46a2-873a-5929f7f365d7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="224559cd-9ece-4a6d-98ea-766b56be6dbe"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5cb1544e-f310-4d05-955f-c698daeffdf0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4b28b778-7552-40b5-89bc-d95b6eaf1ef5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5e4db59b-ec3f-4d78-8b8b-f4f592c29009"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e3b42690-d578-4013-be3a-0c85a889bb3b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ed0ea355-9c0b-40e0-96e5-b23baa3d909c"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="e3f41551-bac0-4d7e-ba49-a2ef94e47c67">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonModules>CommonModule.ОбменДаннымиСервер</commonModules>
+  <commonModules>CommonModule.ОбработкаРезультатовТестированияСервер</commonModules>
+  <httpServices>HTTPService.TestApi</httpServices>
+  <constants>Constant.КаталогХраненияВременныхФайлов</constants>
+  <constants>Constant.КаталогХраненияРешений</constants>
+  <catalogs>Catalog.ТестовыйСправочник</catalogs>
+  <catalogs>Catalog.Тесты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Задачи</catalogs>
+  <enums>Enum.СтатусыВыполненияЗадач</enums>
+  <enums>Enum.Результат</enums>
+  <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
+  <dataProcessors>DataProcessor.Задачник</dataProcessors>
+  <informationRegisters>InformationRegister.ОчередьЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.СоответствиеИдентификаторовРешенийИПутейКФайлам</informationRegisters>
+  <informationRegisters>InformationRegister.РезультатыПроверкиЗадач</informationRegisters>
+</mdclass:Configuration>
